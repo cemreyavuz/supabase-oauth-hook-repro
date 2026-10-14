@@ -1,0 +1,12 @@
+{
+  "name": "supabase-oauth-hook-repro",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "gen-key": "bun run gen-key.ts",
+    "repro": "bun run repro.ts"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "2.100.0"
+  }
+}
